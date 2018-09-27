@@ -20,7 +20,7 @@ var transporter = nodemailer.createTransport({
 
 // setup e-mail data, even with unicode symbols
 var mailOptions = {
-    from: '"Our Code World " <your mail>', // sender address (who sends)
+    from: '"sender name " <your mail>', // sender address (who sends)
     to: 'tomail@gmail.com', // list of receivers (who receives)
     subject: 'Hello ', // Subject line
     text: 'Hello world ', // plaintext body
