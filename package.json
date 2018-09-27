@@ -1,0 +1,16 @@
+{
+  "name": "maildemo",
+  "version": "1.0.0",
+  "description": "send email using node.js in outlook domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8"
+  }
+}
