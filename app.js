@@ -6,7 +6,7 @@ var transporter = nodemailer.createTransport({
   
     //host:"smtp.gmail.com",
     host: "smtp-mail.outlook.com", // hostname
-    secureConnection: true, // TLS requires secureConnection to be false
+    secureConnection: false, // TLS requires secureConnection to be false
     //port:465, //port for secure SMTP - SSL
     port: 587, // port for secure SMTP - TLS
     tls: {
